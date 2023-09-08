@@ -11,15 +11,15 @@
 
 int main(void)
 {
-	int hex = 48;
+	int x = 48;
 
-	while (hex <= 102)
+	while (x <= 102)
 	{
-		putchar(hex);
+		putchar(x);
 
-	if (hex == 57)
-		hex += 39;
-		hex++;
+		if (x == 57)
+			x += 39;
+			x++;
 	}
 	putchar('\n');
 
