@@ -3,11 +3,15 @@
 
 /**
  * main - wirte the sting of a quote in the standard error.
+ *
+ *Description: wirte func can replace the printf that way below 
+ *
  * Return: 1 if success.
  */
 
 int main(void)
 {
-	char c  =write("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
+	char c[]  = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	write(1, c, 59)
 	return (1);
 }
