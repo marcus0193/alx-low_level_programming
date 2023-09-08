@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * Main: the put function used to print in the output insted of printf function.
+ * main - puts function
  *
- * Description: A C cotain one block of code with one function put
+ * description: A C program that print with puts function
  *
  * Return: Always 0 (Success)
 */
