@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * Main: Entry Point cotains one block with one function.
+ * Main: the put function used to print in the output insted of printf function.
  *
- * Description: A C program that print string with put function
+ * Description: A C cotain one block of code with one function put
  *
  * Return: Always 0 (Success)
 */
