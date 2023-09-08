@@ -1,5 +1,7 @@
-#include<stdio.h>
-/*
+#include <stdio.h>
+
+
+/**
  * main - All possible combinations of two two-digit numbers.
  *
  * Description: A C program that uses two while function to print
@@ -10,7 +12,8 @@
 
 int main(void)
 {
-	int dig1 = 0, dig2;
+	int dig1 = 0;
+	int dig2;
 
 	while (dig 1 <= 99)
 	{

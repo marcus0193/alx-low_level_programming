@@ -1,5 +1,7 @@
-#include<stdio.h>
-/*
+#include <stdio.h>
+
+
+/**
  * main - All possible different combinations of three digits
  *
  * Description: A C program that uses three while function to print

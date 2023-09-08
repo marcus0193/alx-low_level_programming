@@ -1,6 +1,6 @@
-#include<stdio.h>
+#include <stdio.h>
 
-/*
+/**
  * main - All combinations of single-digit numbers
  *
  * Description: A c program that print combinations of single-digit numbers

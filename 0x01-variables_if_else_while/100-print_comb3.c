@@ -1,5 +1,7 @@
-#include<stdio.h>
-/*
+#include <stdio.h>
+
+
+/**
  * main - All possible different combinations of two digits
  *
  * Description: A C program that uses two while function to print

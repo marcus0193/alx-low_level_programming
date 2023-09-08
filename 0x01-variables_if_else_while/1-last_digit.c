@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
  * main - identfing number by digits
  *
  * Description: displaying the status digits of the random number

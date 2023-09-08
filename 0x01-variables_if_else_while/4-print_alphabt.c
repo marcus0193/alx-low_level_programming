@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main - prints the alphabet in lowercase except the e and q
  *
  * Description: uses while loop to go through the alphabet

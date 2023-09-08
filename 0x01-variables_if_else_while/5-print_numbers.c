@@ -1,6 +1,6 @@
-#include<stdio.h>
+#include <stdio.h>
 
-/*
+/**
  * main - Printing single digits
  *
  * Description: A c program that prints all single digits from
