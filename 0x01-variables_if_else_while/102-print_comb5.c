@@ -15,7 +15,7 @@ int main(void)
 	int dig1 = 0;
 	int dig2;
 
-	while (dig 1 <= 99)
+	while (dig1 <= 99)
 	{
 		dig2 = dig1;
 		while (dig2 <= 99)

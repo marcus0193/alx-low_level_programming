@@ -6,7 +6,7 @@
  * description: uses while loop to go through the alphabet
  *              and putchar to print the result.
  *
- * Return always 0 (Success)
+ * Return: Always 0 (Success)
 */
 
 int main(void)

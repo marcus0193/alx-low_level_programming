@@ -3,17 +3,17 @@
 #include <stdio.h>
 
 /**
- * main - identfing number by digits
+ * main - identfing number by the las digits
  *
- * Description: displaying the status digits of the random number
+ * Description: displaying the status according to digits of the random number
  *              greater than 5, equal 0, less than 6.
  *
- * Return 0 (Success)
+ * Return: Always 0 (Success)
 */
 
 int main(void)
 {
-	int n; y
+	int n, y;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;

@@ -3,8 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - Ckeching n value
- * @n: is a random number
+ * main - Ckeching n value of random number
  *
  * Description: true or false validation of the number value by if estatments
  *
