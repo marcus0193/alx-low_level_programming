@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * Main: put function to display in the output
+ * Main: the main function contains a put function and then return
  *
  * Description: A C program that print with put string function
  *
