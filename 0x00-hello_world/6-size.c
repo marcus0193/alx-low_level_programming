@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /**
- * main: starting entery of the C code
+ * main:  size of various types
  *
  * Description: using sizeof func to print sizes print size of all data types
  *
