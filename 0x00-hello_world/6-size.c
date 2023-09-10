@@ -1,9 +1,9 @@
 #include<stdio.h>
 
 /**
- * main: A C program that print out the size of all data types
+ * main: starting entery of the C code
  *
- * Description: using sizeof func to print sizes
+ * Description: using sizeof func to print sizes print size of all data types
  *
  * Return: Always 0 (Success)
 */
