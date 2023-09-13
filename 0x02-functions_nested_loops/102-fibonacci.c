@@ -18,10 +18,11 @@ int main(void)
 	for (i = 0; i < 50; i++)
 	{
 		sum = n1 + n2;
-		printf("%lu", sum)
 
-		n1 = n2
-		n2 = sum
+		printf("%lu", sum);
+
+		n1 = n2;
+		n2 = sum;
 
 		if (i == 49)
 			printf("\n");

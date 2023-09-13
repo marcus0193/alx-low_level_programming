@@ -17,7 +17,7 @@ int main(void)
 	for (y = 0; y < 1024; y++)
 	{
 		if (y % 3 == 0 || y % 5 == 0)
-			i += y
+			i += y;
 	}
 	printf("%d\n", i);
 
