@@ -58,7 +58,7 @@ int main(void)
 		n1 = n2;
 		r1 = r2;
 		n2 = sum;
-		r2 = sum0;
+		r2 = sum1;
 
 		if (z != 98)
 			printf(", ");
