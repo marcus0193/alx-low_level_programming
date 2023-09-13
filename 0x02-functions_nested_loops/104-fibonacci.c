@@ -15,12 +15,12 @@ int _length(int n)
 {
 	int y = 0;
 
-	if (!num)
+	if (!n)
 		return (1);
-	while (num)
+	while (n)
 	{
-		num = num / 10;
-		y += 1
+		n = n / 10;
+		y += 1;
 	}
 	return (y);
 }
@@ -37,7 +37,7 @@ int _length(int n)
 int main(void)
 {
 	int z, x;
-	unsigned long n1 = 1, n2 = 2, sum, last = 100000000, r1 = 0, r2 = 0 sum0 = 0;
+	unsigned long n1 = 1, n2 = 2, sum, last = 100000000, r1 = 0, r2 = 0, sum1 = 0;
 
 	for (z = 1; z <= 98; z++)
 	{
@@ -54,7 +54,7 @@ int main(void)
 		printf("%lu", n1);
 
 		sum = (n1 + n2) % last;
-		sum0 = r1 + r2 + (n1 + n2) / last;
+		sum1 = r1 + r2 + (n1 + n2) / last;
 		n1 = n2;
 		r1 = r2;
 		n2 = sum;
