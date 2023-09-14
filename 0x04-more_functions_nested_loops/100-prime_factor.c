@@ -24,7 +24,7 @@ double _sqnum(double y)
 }
 
 /**
- * lar_pr_fa - function that calculate and prints 
+ * lar_pr_fa - function that calculate and prints
  *             largest prime factor number of n
  *
  * @n: input prameter for the function
