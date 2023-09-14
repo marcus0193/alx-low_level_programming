@@ -2,11 +2,9 @@
 #include "main.h"
 
 /**
- * print_diagonal - function that drows diagonal usesing spaces
+ * print_diagonal - drows diagonal usesing spaces
  *
- * Description: using for loop with if and olny _putchar
- *
- * @n: input prameter declare the time should / be printed
+ * @n: input prameter declare the num of / in line
  *     and if its 0 the function prints a new line
 */
 
@@ -22,7 +20,7 @@ void print_diagonal(int n)
 		{
 			for (z = 1; z <= y; z++)
 				_putchar(' ');
-			_putchar('/');
+			_putchar(92);
 			_putchar('\n');
 		}
 	}

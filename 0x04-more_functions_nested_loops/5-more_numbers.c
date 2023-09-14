@@ -18,10 +18,11 @@ void more_numbers(void)
 		for (z = 0; z <= 14; z++)
 		{
 			x = z;
+
 			if (z > 9)
 			{
 				_putchar(1 + 48);
-				x = z % 10
+				x = z % 10;
 			}
 			_putchar(x + 48);
 		}

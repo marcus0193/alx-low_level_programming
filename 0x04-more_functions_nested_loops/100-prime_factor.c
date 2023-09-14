@@ -42,7 +42,7 @@ void lar_pr_fa(long int n)
 		while (n % x == 0)
 		{
 			n = n / x;
-			z = x
+			z = x;
 		}
 	}
 

@@ -3,7 +3,7 @@
 
 /**
  * main - function that prints num from 1 to 100 followed by \n
- *        
+ *
  * Description: for any number can be moduled by 3 out of 0 print fizz
  *              for any number can be moduled by 5 out of 0 print buzz
  *              for any number can be moduled by 3 and 5 out of 0 print
