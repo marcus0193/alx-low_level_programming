@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_triangle - function that prints triangle of #s as example 
+ * print_triangle - function that prints triangle of #s as example
  *
  * @size: input prameter the rows and clos of the triangle sould equal
  *
@@ -24,7 +24,7 @@ void print_triangle(int size)
 				if ((r + c) <= size)
 					_putchar(' ');
 				else
-					_putchar(32);
+					_putchar('#');
 			}
 			_putchar('\n');
 		}

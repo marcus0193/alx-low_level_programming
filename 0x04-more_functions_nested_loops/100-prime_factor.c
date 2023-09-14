@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main"
 
 /**
  * _sqnum - function to calculate the sqaure of numbers
@@ -42,7 +41,7 @@ void lar_pr_fa(long int n)
 	{
 		while (n % x == 0)
 		{
-			num = num / x;
+			n = n / x;
 			z = x
 		}
 	}
