@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * _sqnum - function to calculate the sqaure of numbers
+ * _sqnum - function to calculate the sqaure
+ * of numbers
  *
  * @n: input prameter
  *
@@ -25,7 +26,7 @@ double _sqnum(double y)
 
 /**
  * lar_pr_fa - function that calculate and prints
- *             largest prime factor number of n
+ * largest prime factor number of n
  *
  * @n: input prameter for the function
 */
@@ -52,9 +53,9 @@ void lar_pr_fa(long int n)
 }
 
 /**
- * main - starting point of the code
+ * main - Entery point
  *
- * Description: the final function is main to run our code
+ * Description: We run our function on the num we given
  *
  * Return: Always 0
 */
