@@ -1,24 +1,29 @@
-#include <stdio.h>
+#include "stdio.h"
 #include "main.h"
 
 /**
- * print_square - function that prints square of
- *                #s as example
- *
- * @size: input prameter the rows and clos of the
- *        square sould equal
- *
- * Return: Always 0
-*/
-
+ * print_square - print a square
+ * @size: size of square
+ * Description: Can only use _putchar to print. Use '#' to print square.
+ */
 void print_square(int size)
 {
-	int r, c;
+	int x, y;
 
-	for (r = 1; r <= size; r++)
-	{
-		for (c = 1; c <= size; c++)
-			_putchar('#');
+	y = 0;
+
+	if (size < 1)
 		_putchar('\n');
+
+	while (y < size)
+	{
+		x = 0;
+		while (x < size)
+		{
+			_putchar('#');
+			x++;
+		}
+		_putchar('\n');
+		y++;
 	}
 }

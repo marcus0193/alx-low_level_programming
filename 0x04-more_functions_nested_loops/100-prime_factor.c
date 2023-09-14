@@ -54,6 +54,8 @@ void lar_pr_fa(long int n)
 /**
  * main - starting point of the code
  *
+ * Description: the final function is main to run our code
+ *
  * Return: Always 0
 */
 

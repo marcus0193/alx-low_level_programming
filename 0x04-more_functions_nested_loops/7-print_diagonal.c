@@ -1,27 +1,30 @@
-#include <stdio.h>
+#include "stdio"
 #include "main.h"
 
 /**
- * print_diagonal - drows diagonal usesing spaces
- *
- * @n: input prameter declare the num of / in line
- *     and if its 0 the function prints a new line
-*/
-
+ * print_diagonal - draw a diagonal line
+ * @n: number of times the '\' char is printed
+ * Description: Can only use _putchar to print
+ */
 void print_diagonal(int n)
 {
-	int y, z;
+	int c, i;
 
-	if (n <= 0)
-		_putchar('\n');
-	else
+	c = 0;
+
+	while (n > 0)
 	{
-		for (y = 1; y <= n; y++)
+		i = c;
+		while (i > 0)
 		{
-			for (z = 1; z <= y; z++)
-				_putchar(' ');
-			_putchar('\\');
-			_putchar('\n');
+			_putchar(' ');
+			i--;
 		}
+		_putchar('\\');
+		_putchar('\n');
+		c++;
+		n--;
 	}
+	if (c < 1)
+		_putchar('\n');
 }
