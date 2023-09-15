@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * _sqnum - function to calculate the sqaure
@@ -55,14 +56,14 @@ void lar_pr_fa(long int n)
 /**
  * main - Entery point
  *
- * Description: We run our function on the num we given
+ * Description: We run our function on the
+ * number we were given as n
  *
- * Return: Always 0
+ * Return: Always 0 (success)
 */
 
 int main(void)
 {
 	lar_pr_fa(612852475143);
-
 	return (0);
 }
