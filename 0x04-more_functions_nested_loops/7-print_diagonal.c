@@ -2,26 +2,28 @@
 #include "main.h"
 
 /**
- * print_diagonal - drows diagonal usesing spaces
- *
- * @n: input prameter declare the num of / in line
- *     and if its 0 the function prints a new line
+ * print_diagonal - prints a diagonal
+ * @n:parameter
+ * Return:returns nothing
 */
 
 void print_diagonal(int n)
 {
-	int y, z;
+	int len, space;
 
-	if (n <= 0)
-		_putchar('\n');
-	else
+	if (n > 0)
 	{
-		for (y = 1; y <= n; y++)
+		for (len = 0; len < n; len++)
 		{
-			for (z = 1; z <= y; z++)
+			for (space = 0; space < len; space++)
 				_putchar(' ');
-			_putchar(92);
-			_putchar('\n');
+
+				_putchar('\\');
+
+			if (len == (n - 1))
+				continue;
+				_putchar('\n');
 		}
 	}
+	_putchar('\n');
 }
