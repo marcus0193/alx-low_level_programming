@@ -7,7 +7,7 @@
  *
  * @a: is the first parameter of the function
  *
- * @n is a the second parameter of the function
+ * @n: is a the second parameter of the function
 */
 
 void print_array(int *a, int n)
