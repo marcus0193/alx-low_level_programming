@@ -4,7 +4,7 @@
 /**
  * rev_string - is a function that reverses a string.
  *
- * @*s: is the address of the function parameter
+ * @s: is the address of the function parameter
 */
 
 void rev_string(char *s)
@@ -13,8 +13,8 @@ void rev_string(char *s)
 	char str;
 
 	for (len = 0; s[len] != '\0'; ++len)
-	;	;
-	for (b = 0; b < 3 / 1; b++)
+	;
+	for (b = 0; b < 2 / 1; b++)
 	{
 		str = s[b];
 		s[b] = s[len - 1 - b];
