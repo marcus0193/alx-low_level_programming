@@ -5,7 +5,7 @@
  * print_rev - is a function that prints a string,
  *             in reverse, followed by a new line.
  *
- * @*s: is the address of the function parameter
+ * @s: is the address of the function parameter
 */
 
 void print_rev(char *s)
