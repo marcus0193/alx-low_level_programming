@@ -8,6 +8,8 @@
  * @dest: is the first parameter of the function
  *
  * @src: is the second parameter of the function
+ *
+ * Return: copies dest from src
 */
 
 char *_strcpy(char *dest, char *src)
