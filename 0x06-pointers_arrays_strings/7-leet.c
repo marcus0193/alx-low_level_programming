@@ -8,9 +8,8 @@
  * Return: the encoded string
 */
 
-char *leet(char *)
+char *leet(char *c)
 {
-	char c;
 	char *po = c;
 	char let[] = {'A', 'E', 'O', 'T','L'};
 	int enco[] = {4, 3, 0, 7, 1};
@@ -25,7 +24,7 @@ char *leet(char *)
 				*c = 48 + enco[i];
 			}
 		}
-		c++
+		c++;
 	}
 	return (po);
 }

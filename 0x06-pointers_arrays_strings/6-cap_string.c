@@ -8,7 +8,7 @@
  * Return: 1 if it is and 0 if not
 */
 
-int lower(char s)
+int lower(char c)
 {
 	return (c >= 97 && c <= 122);
 }
@@ -40,9 +40,9 @@ int dels(char x)
  * Return: the capitalized string
 */
 
-char *cap_string(char *)
+char *cap_string(char *s)
 {
-	char s;
+
 	char *po = s;
 	int ifdes = 1;
 

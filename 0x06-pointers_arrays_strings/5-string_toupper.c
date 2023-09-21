@@ -11,7 +11,7 @@
 char *string_toupper(char *)
 {
 	int lower;
-	char str[];
+	char str[50];
 
 	for (lower = 0; str[lower] != '\0'; lower++)
 	{
@@ -20,5 +20,5 @@ char *string_toupper(char *)
 			str[lower] = str[lower] - 32;
 		}
 	}
-	retuen (str);
+	return (str);
 }

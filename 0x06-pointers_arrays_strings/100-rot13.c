@@ -27,7 +27,7 @@ char *rot13(char *c)
 
 			}
 		}
-		c++
+		c++;
 	}
 	return (po);
 }
