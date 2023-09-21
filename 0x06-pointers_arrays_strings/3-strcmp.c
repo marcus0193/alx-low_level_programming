@@ -1,14 +1,12 @@
-#include <stdio.h>
-#include <string.h>
 #include "main.h"
 
 /**
  * _strcmp - is a function that compares
  *           two strings
  *
- * @s1: is the first parameter of the function
+ * @s1: the first parameter of the function
  *
- * @s2: is the second parameter of the functon
+ * @s2: the second parameter of the functon
  *
  * Return: the result of the comparation
 */
