@@ -3,7 +3,8 @@
 #include "main.h"
 
 /**
- * _strcmp - is a function that compares two strings
+ * _strcmp - is a function that compares
+ *           two strings
  *
  * @s1: is the first parameter of the function
  *
