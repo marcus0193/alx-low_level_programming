@@ -42,8 +42,9 @@ int dels(char x)
  * Return: the capitalized string
 */
 
-char *cap_string(char *s)
+char *cap_string(char *)
 {
+	char s;
 	char *po = s;
 	int ifdes = 1;
 

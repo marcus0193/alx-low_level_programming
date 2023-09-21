@@ -10,8 +10,9 @@
  * Return: the encoded string
 */
 
-char *leet(char *c)
+char *leet(char *)
 {
+	char c;
 	char *po = c;
 	char let[] = {'A', 'E', 'O', 'T','L'};
 	int enco[] = {4, 3, 0, 7, 1};
