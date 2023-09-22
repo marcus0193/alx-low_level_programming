@@ -34,7 +34,7 @@ void hexprint(char *b, int start, int end)
 		if (i < end)
 			printf("%02x", *(b + start + i));
 		else
-			printf(" ");
+			printf("  ");
 		if (i % 2)
 			printf(" ");
 		i++;
