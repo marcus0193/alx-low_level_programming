@@ -8,10 +8,9 @@
  * Return: is new array
 */
 
-char *string_toupper(char *)
+char *string_toupper(char *str)
 {
 	int lower;
-	char str[50];
 
 	for (lower = 0; str[lower] != '\0'; lower++)
 	{

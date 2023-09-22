@@ -2,7 +2,6 @@
 
 /**
  * lower - is a function to determine lowercase
- *
  * @s: is the function parameter
  *
  * Return: 1 if it is and 0 if not
@@ -12,10 +11,8 @@ int lower(char c)
 {
 	return (c >= 97 && c <= 122);
 }
-
 /**
  * dels - is a function to determine delimiters
- *
  * @x: is the function parameter
  *
  * Return: 1 if it is and 0 if not
@@ -31,10 +28,9 @@ int dels(char x)
 			return (1);
 	return (0);
 }
-
 /**
- * *cap_string - is a function that capitalizes all words of a string.
- *
+ * *cap_string - is a function that capitalizes
+ * all words of a string.
  * @s: is the function parameter
  *
  * Return: the capitalized string

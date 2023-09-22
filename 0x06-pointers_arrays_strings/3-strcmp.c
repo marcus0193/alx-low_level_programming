@@ -2,10 +2,8 @@
 
 /**
  * _strcmp - is a function that compares
- *           two strings
- *
+ *two strings
  * @s1: the first parameter of the function
- *
  * @s2: the second parameter of the functon
  *
  * Return: the result of the comparation

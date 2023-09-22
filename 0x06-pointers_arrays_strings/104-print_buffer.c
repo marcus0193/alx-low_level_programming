@@ -28,12 +28,11 @@ int printable(int n)
 void hexprint(char *b, int start, int end)
 {
 	int i = 0;
-	char hx = *(b + start + i);
 
-	while (1 < 10)
+	while (i < 10)
 	{
 		if (i < end)
-			printf("02x%s", hx);
+			printf("%02hhx", *(b + start + i));
 		else
 			printf(" ");
 		if (i % 2)
