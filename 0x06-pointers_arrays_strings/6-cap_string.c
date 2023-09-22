@@ -2,7 +2,7 @@
 
 /**
  * lower - is a function to determine lowercase
- * @s: is the function parameter
+ * @c: is the function parameter
  *
  * Return: 1 if it is and 0 if not
 */

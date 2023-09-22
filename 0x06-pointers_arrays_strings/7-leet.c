@@ -11,7 +11,7 @@
 char *leet(char *c)
 {
 	char *po = c;
-	char let[] = {'A', 'E', 'O', 'T','L'};
+	char let[] = {'A', 'E', 'O', 'T', 'L'};
 	int enco[] = {4, 3, 0, 7, 1};
 	unsigned int i;
 
