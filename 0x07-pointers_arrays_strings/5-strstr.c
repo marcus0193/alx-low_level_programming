@@ -20,11 +20,12 @@ char *_strpbrk(char *haystack, char *needle)
 	locate = 0;
 	while (haystack[locate] != '\0')
 	{
-	    match = 0;
-	for (match = 0; needle[locate] = needle[match]; match++)
-	{
-	    return (haystack + locate);
-	}
+		match = 0;
+		for (match = 0; needle[locate] = needle[match]; match++)
+		{
+			return (haystack + locate);
+		}
+		ptr = &haystack;
 	}
 		return ('\0');
 }

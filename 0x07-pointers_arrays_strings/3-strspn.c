@@ -12,13 +12,14 @@
  * Return: number of bytes of accept on s
 */
 
-char *_strspn(char *s, char accept)
+char *_strspn(char *s, char *accept)
 {
-	int locate, nob;
+	int nob;
+	char locate;
 
 	for (locate = 0; s[locate] != '\0'; locate++)
 	{
-		for (nob = 0; accept[nob != s[locate]]; nob++)
+		for (nob = 0; accept[nob] != s[locate]; nob++)
 		{
 			if (accept[nob] == '\0')
 				return (locate);

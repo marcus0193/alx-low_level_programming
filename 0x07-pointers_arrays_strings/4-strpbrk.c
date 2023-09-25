@@ -25,10 +25,10 @@ char *_strpbrk(char *s, char *accept)
 		{
 			if (accept[match] == s[locate])
 			{
-				ptr = &s[locate]
+				ptr = &s[locate];
 					return (ptr);
 			}
 			match++;
 		}
 		return (0);
-	}
+}
