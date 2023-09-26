@@ -14,8 +14,7 @@
 
 char *_strspn(char *s, char *accept)
 {
-	int nob;
-	char locate;
+	unsigned int nob, locate;
 
 	for (locate = 0; s[locate] != '\0'; locate++)
 	{

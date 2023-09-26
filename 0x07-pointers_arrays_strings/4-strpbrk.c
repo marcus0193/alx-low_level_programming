@@ -30,5 +30,7 @@ char *_strpbrk(char *s, char *accept)
 			}
 			match++;
 		}
+
 		return (0);
+
 }

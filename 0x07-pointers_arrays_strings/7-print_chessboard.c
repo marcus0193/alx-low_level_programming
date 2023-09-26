@@ -18,6 +18,7 @@ void print_chessboard(char (*a)[8])
 		{
 			_putchar(a[locate][roc]);
 		}
+		_putchar('\n');
+
 	}
-	_putchar('\n');
 }
