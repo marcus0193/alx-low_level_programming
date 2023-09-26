@@ -30,6 +30,8 @@ char *_strpbrk(char *s, char *accept)
 			}
 			match++;
 		}
+		locate++
+	}
 
 		return (0);
 
