@@ -14,10 +14,14 @@
 
 int num_sqr(int x, int sqr)
 {
-    if (sqr * sqr == x)
-        return (sqr);
-    else if (sqr * sqr < x)
-        return (num_sqr(x, sqr + 1));
+	if (sqr * sqr == x)
+	{
+	 	return (sqr);
+	}
+	else if (sqr * sqr < x)
+	{
+		return (num_sqr(x, sqr + 1));
+	}
 }
 
 /**
@@ -30,5 +34,5 @@ int num_sqr(int x, int sqr)
 
 int _sqrt_recursion(int n)
 {
-    return (num_sqr(n, 1));
+	return (num_sqr(n, 1));
 }

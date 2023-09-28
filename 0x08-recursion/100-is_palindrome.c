@@ -12,12 +12,12 @@
 
 int declare_final(char *y)
 {
-    int x = 0;
+	int x = 0;
 
-    if (*y > '\0')
-        x += declare_final(y + 1) + 1;
+	if (*y > '\0')
+		x += declare_final(y + 1) + 1;
 
-    return (x);
+	return (x);
 }
 
 /**
@@ -36,12 +36,12 @@ int declare_final(char *y)
 
 int detect(char *s, int first, int last, int length)
 {
-    if ((first == last && length != 0) || (first == last + 1 && length == 0))
-        return (1);
-    else if (s[first] != s[last])
-        return (0);
-    else
-        return (detect(s, first + 1, last - 1, length));
+	if ((first == last && length != 0) || (first == last + 1 && length == 0))
+		return (1);
+	else if (s[first] != s[last])
+		return (0);
+	else
+		return (detect(s, first + 1, last - 1, length));
 }
 
 /**
@@ -55,7 +55,7 @@ int detect(char *s, int first, int last, int length)
 */
 int is_palindrome(char *s)
 {
-    int last = declare_final(s);
+	int last = declare_final(s);
 
-    return (detect(s, 0, last - 1, last % 2));
+	return (detect(s, 0, last - 1, last % 2));
 }
