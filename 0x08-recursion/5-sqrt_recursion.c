@@ -15,15 +15,10 @@
 int num_sqr(int x, int sqr)
 {
 	if (sqr * sqr == x)
-	{
-	 	return (sqr);
-	}
+		return (sqr);
 	else if (sqr * sqr < x)
-	{
 		return (num_sqr(x, sqr + 1));
-	}
 }
-
 /**
  * _sqrt_recursion - is a function that returns the natural square root of a number
  *

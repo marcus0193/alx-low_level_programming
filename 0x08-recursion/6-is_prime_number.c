@@ -20,15 +20,15 @@ int it_prime(int x, int y)
 		return (0);
 
 	else
-		return (it_prime(x, y + 1)); 
+		return (it_prime(x, y + 1));
 }
 
 /**
  * is_prime_number - a function that returns 1 if the input
  *                   integer is a prime number, otherwise return 0
- * 
+ *
  * @n: is the function parameter
- * 
+ *
  * Return: ethier 1 if it's a prime or 0 if it's not
 */
 

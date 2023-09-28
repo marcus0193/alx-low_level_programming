@@ -3,10 +3,11 @@
 #include "main.h"
 
 /**
- * declare_final - is a function that find the length of the string to declare it's final alpha
- * 
- * @s: is the function parameter
- * 
+ * declare_final - is a function that find the length of
+ *                 the string to declare it's final alpha
+ *
+ * @y: is the function parameter
+ *
  * Return: the length of the string
 */
 
@@ -22,7 +23,7 @@ int declare_final(char *y)
 
 /**
  * detect - is a function that detects  wither the string is palindrome
- * 
+ *
  * @s: is the first parameter of the function
  *
  * @first: is the second parameter of the function
@@ -30,7 +31,7 @@ int declare_final(char *y)
  * @last: is the third parameter of the function
  *
  * @length: is the last parameter of the function
- * 
+ *
  * Return: ethier 1 or 0
 */
 
@@ -45,13 +46,12 @@ int detect(char *s, int first, int last, int length)
 }
 
 /**
- * is_palindrome - is a function that returns 1 if a string is a palindrome and 0 if not
+ * is_palindrome - is a function that returns 1 if
+ *                 a string is a palindrome and 0 if not
  *
  *  @s: is the function parameter
  *
  * Return: 1 if it's palindrome and 0 if not
- *
- * 
 */
 int is_palindrome(char *s)
 {
