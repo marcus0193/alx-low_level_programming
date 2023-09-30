@@ -5,7 +5,7 @@
 /**
  * num_sqr - is a function to calcuate the square of a number
  *
- * @x: is function parameter 
+ * @x: is function parameter
  *
  * @sqr: is the second function parameter
  *
@@ -26,7 +26,8 @@ int num_sqr(int x, int sqr)
 		return (-1);
 }
 /**
- * _sqrt_recursion - is a function that returns the natural square root of a number
+ * _sqrt_recursion - is a function that returns
+ *		     the natural square root of a number
  *
  * @n: is the function parameter
  *
