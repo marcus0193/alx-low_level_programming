@@ -11,7 +11,7 @@
  * Return: 0 if two arg and 1 if not
 */
 
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 	int sum = 0;
 
