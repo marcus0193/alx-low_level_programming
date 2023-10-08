@@ -1,9 +1,9 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * _length - to alcote the length of the string
  *
- * @str: is the first parameter 
+ * @str: is the first parameter
  *
  * Return: length
 */
@@ -41,7 +41,7 @@ char *str_concat(char *s1, char *s2)
 	sl2 = _length(s2);
 	allo = malloc((sl1 + sl2) * sizeof(char) + 1);
 
-	if (allo = 0)
+	if (allo == 0)
 		return (NULL);
 
 	for (n = 0; n <= sl1 + sl2; n++)

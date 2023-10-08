@@ -6,7 +6,7 @@
  *
  * @width: is the first parameter
  *
- * @heigth: is the second parameter
+ * @height: is the second parameter of the function
  *
  * Return: null or a pointer
 */
@@ -17,7 +17,7 @@ int **alloc_grid(int width, int height)
 
 	dime = malloc(sizeof(*dime) * height);
 
-	if (width <= 0; || height <= 0 || dime == 0)
+	if (width <= 0 || height <= 0 || dime == 0)
 	{
 		return (NULL);
 	}

@@ -44,16 +44,16 @@ char **strtow(char *str)
 	q = word(str);
 	if (q == 1)
 		return (NULL);
-	s = (char **)malloc(n * sizeof(char *));
+	s = (char **)malloc(q * sizeof(char *));
 	if (s == NULL)
 		return (NULL);
 	s[q - 1] = NULL;
 	n = 0;
-	while (str [n])
+	while (str[n])
 	{
-		if (str [n] != ' ' && (n == 0 || str [n - 1] == ' '))
+		if (str[n] != ' ' && (n == 0 || str[n - 1] == ' '))
 		{
-			for (y = 1; str[n + y] != ' ' && str [n + y]; y++)
+			for (y = 1; str[n + y] != ' ' && str[n + y]; y++)
 				;
 			y++;
 			s[len] = (char *)malloc(y * sizeof(char));
@@ -67,7 +67,7 @@ char **strtow(char *str)
 				return (NULL);
 			}
 			for (x = 0; x < y; x++)
-				s[len][x] = str [n + x];
+				s[len][x] = str[n + x];
 			s[len][x] = '\0';
 			len++;
 			n += y;

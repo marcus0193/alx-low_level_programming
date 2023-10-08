@@ -24,7 +24,7 @@ int _length(char *slen)
  *
  * @av: is the second parameter
  *
- * Return : pointer or NULL
+ * Return: pointer or NULL
 */
 
 char *argstostr(int ac, char **av)
