@@ -1,9 +1,4 @@
 #ifndef ABS
-#define ABS(x)
-{
-	do{
-			x *= -x;
-	}
-	while (x > 0);
+#define ABS(x) ((x) < 0 ? (-x) : (x))
 
 #endif
