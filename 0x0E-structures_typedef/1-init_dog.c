@@ -14,3 +14,4 @@ typedef struct dog {
 	float age;
 	char *owner;
 };
+struct dog my_var;
