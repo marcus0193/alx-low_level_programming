@@ -42,7 +42,7 @@ char *copy(char *to, char *from)
  * @age: the second parameter
  * @owner: the third parameter
  *
- * Return: pointer of the type strcut dog or null 
+ * Return: pointer of the type strcut dog or null
 */
 
 dog_t *new_dog(char *name, float age, char *owner)
@@ -60,7 +60,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	if ((*new).name == NULL)
 	{
 		free(new);
-		return (NULL):
+		return (NULL);
 	}
 
 	new->owner = malloc(sizeof(char) * (length(owner) + 1));
@@ -77,6 +77,3 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	return (new);
 }
-
-
-

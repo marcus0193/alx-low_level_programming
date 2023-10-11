@@ -3,8 +3,8 @@
 /**
  * init_dog - function that initi a variable of type struct dog
  * @d: the second member
- * @*name: first member
- * @*owner: the third member
+ * @name: first member
+ * @age: the third member
  * @owner: fourth parameter
  *
  * Return: nothing

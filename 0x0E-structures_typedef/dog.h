@@ -10,7 +10,8 @@
  * Description: a new struct for task 0 on 0x0E
 */
 
-struct dog {
+struct dog
+{
 	char *name;
 	float age;
 	char *owner;
