@@ -1,17 +1,21 @@
-#include "main.h"
+#include "dog.h"
 
 /**
- * struct dog - a new strcut of the name dog
- * @age: the second member
+ * init_dog - function that initi a variable of type struct dog
+ * @d: the second member
  * @*name: first member
  * @*owner: the third member
+ * @owner: fourth parameter
  *
- * Description: a new struct for task 0 on 0x0E
+ * Return: nothing
 */
 
-typedef struct dog {
-	char *name;
-	float age;
-	char *owner;
-};
-struct dog my_var;
+void init_dog(struct dog *d, char *name, float age, char *owner)
+{
+	if (d)
+	{
+		d->name = name;
+		d->age = age;
+		d->owner = owner;
+	}
+}
