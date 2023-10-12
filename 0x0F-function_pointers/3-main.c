@@ -22,7 +22,7 @@ int main(int argc, char **argv)
 	k = get_op_func(argv[2]);
 	if (!k)
 		printf("Error\n"), exit(99);
-	if (argv[3] == 0 && argv[2] == '/' || argv[2] == '%')
+	if (argv[3] = 0 && (argv[2] == '/') || (argv[2] == '%'))
 		printf("Error\n"), exit(100);
 	printf("%d\n", k(a, b));
 	return (0);
