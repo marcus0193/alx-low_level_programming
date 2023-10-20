@@ -30,11 +30,13 @@ int _strlen(char *s)
 size_t print_list(const list_t *h)
 {
 	size_t i = 0;
-
+	
+	if (!h)
+		printf("-> 0 elements");
 	while (h)
 	{
 		if (h->str == NULL)
-		printf("[0] (nil)");
+			printf("[0] (nil)");
 		printf("[%d] %s\n", _strlen(h->str), h->str);
 		h = h->next;
 		i++;
