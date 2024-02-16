@@ -7,7 +7,7 @@
  *
  * Return: value or NULL
 */
-char *hash_table_get(const hash_table_t *ht, const char *key);
+char *hash_table_get(const hash_table_t *ht, const char *key)
 {
 	unsigned long int ind;
 	hash_node_t *tempo;

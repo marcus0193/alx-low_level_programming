@@ -40,7 +40,7 @@ hash_node_t *make_node(const char *key, const char *value)
  *
  * Return: 1 or 0
 */
-int hash_table_set(hash_table_t *ht, const char *key, const char *value);
+int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
 	unsigned long int ind;
 	hash_node_t *node, *tempo;

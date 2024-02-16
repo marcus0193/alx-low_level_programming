@@ -6,7 +6,7 @@
  *
  * Return: nothing as void func
 */
-void hash_table_delete(hash_table_t *ht);
+void hash_table_delete(hash_table_t *ht)
 {
 	unsigned long int n;
 	hash_node_t *next;
