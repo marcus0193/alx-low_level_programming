@@ -68,7 +68,7 @@ shash_node_t *make_shash_node(const char *key, const char *value)
  *
  * Return: nothing as a void
 */
-void add_to_sorted_list(shash_table_t *table, shash_node_t * node)
+void add_to_sorted_list(shash_table_t *table, shash_node_t *node)
 {
 	shash_node_t *tempo;
 
@@ -218,7 +218,7 @@ void shash_table_print_rev(const shash_table_t *ht)
 }
 /**
  * shash_table_delete - deletes a sorted table
- * @ht the table itself
+ * @ht: the table itself
  *
  * Return: nothing as a void func
 */
