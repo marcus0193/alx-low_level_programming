@@ -17,7 +17,7 @@ shash_table_t *shash_table_create(unsigned long int size)
 	hash->size = size;
 	hash->shead = NULL;
 	hash->stail = NULL;
-	hash->array = malloc(size * sizeof(shash_node_t ) * size);
+	hash->array = malloc(size * sizeof(shash_node_t) * size);
 	if (hash->array == NULL)
 	{
 		free(hash);
