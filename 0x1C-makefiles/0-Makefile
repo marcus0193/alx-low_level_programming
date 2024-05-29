@@ -1,0 +1,10 @@
+# Name of the executable
+EXECUTABLE := school
+
+# The all rule builds the executable
+all:
+	gcc main.c school.c -o $(EXECUTABLE)
+
+# Clean rule to remove the executable
+clean:
+	rm -f $(EXECUTABLE)
