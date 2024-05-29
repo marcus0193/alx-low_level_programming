@@ -1,24 +1,23 @@
-# Compiler to be used
-CC := gcc
+# Variables
+CC = gcc
+SRC = main.c school.c
+OBJ = $(patsubst %.c,%.o,$(SRC))
+NAME = school
 
-# Source files
-SRC := $(wildcard *.c)
-
-# Object files
-OBJ := $(SRC:.c=.o)
-
-# Name of the executable
-NAME := school
-
-# The all rule builds the executable
+# All rule
 all: $(NAME)
 
+# Rule for building the executable
 $(NAME): $(OBJ)
-	$(CC) $^ -o $@
+	$(CC) $(OBJ) -o $(NAME)
 
+# Rule for compiling a .c file into a .o file
 %.o: %.c
 	$(CC) -c $< -o $@
 
-# Clean rule to remove the object files and executable
+# Rule to clean object files and the executable
 clean:
 	rm -f $(OBJ) $(NAME)
+
+# Phony targets
+.PHONY: all clean
